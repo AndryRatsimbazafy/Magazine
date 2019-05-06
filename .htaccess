@@ -1,0 +1,33 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^Home$  index.php?c=Welcome [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^Category/([A-Za-z0-9]+)-([A-Za-z0-9]+)$ index.php?c=Categorie&m=getPostByCateg&idCateg=$2&nomCateg=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^Post/([^/]+)-([^/]+)$ index.php?c=Post&m=showPost&idPost=$2&nomPost=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^Connexion-Admin$  index.php?c=Admin [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^Home-Admin$  index.php?c=Admin&m=acceuil [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^Admin/Category/([A-Za-z0-9]+)-([A-Za-z0-9]+)$ index.php?c=Admin&m=getPostByCateg&idCateg=$2&nomCateg=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^Add-Item$  index.php?c=Admin&m=toAddItem [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^Edit-Item/([A-Za-z0-9]+)-([A-Za-z0-9]+)$ index.php?c=Admin&m=toEditItem&idPost=$2&titre=$1 [L]
