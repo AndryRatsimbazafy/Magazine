@@ -20,12 +20,6 @@
     <link href="<?php echo base_url() ?>assets/Admin/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
 
     <link href="<?php echo base_url() ?>assets/Admin/vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
-    <link href="<?php echo base_url() ?>assets/Admin/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
-    <link href="<?php echo base_url() ?>assets/Admin/vendor/wow/animate.css" rel="stylesheet" media="all">
-    <link href="<?php echo base_url() ?>assets/Admin/vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
-    <link href="<?php echo base_url() ?>assets/Admin/vendor/slick/slick.css" rel="stylesheet" media="all">
-    <link href="<?php echo base_url() ?>assets/Admin/vendor/select2/select2.min.css" rel="stylesheet" media="all">
-    <link href="<?php echo base_url() ?>assets/Admin/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
 
 </head>
 
