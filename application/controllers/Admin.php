@@ -29,7 +29,8 @@ class Admin extends CI_Controller {
 		$username = $this->input->post('username');
 		$password = $this->input->post('password');
 		if($this->Administrator->authentificate($username, $password)){
-			redirect('http://localhost:70/Magazine/Home-Admin', 'refresh');
+			$string=base_url();
+			redirect($string.'Home-Admin', 'refresh');
 		}
 		else
 			$this->load->view('Admin/login');
@@ -91,7 +92,8 @@ class Admin extends CI_Controller {
 
 		$this->Posts->insertPost($title, $subTitle, $text, $idCateg, $image, $nomCateg, $image2);
 
-		redirect('http://localhost:70/Magazine/Add-Item', 'refresh');
+		$string=base_url();
+		redirect($string.'Home-Admin', 'refresh');
 	}
 
 	public function editItem(){
@@ -112,7 +114,8 @@ class Admin extends CI_Controller {
 
 		$this->Posts->editPost($title, $subTitle, $text, $idCateg, $image, $nomCateg, $image2, $idPost);
 
-		redirect('http://localhost:70/Magazine/Home-Admin', 'refresh');
+		$string=base_url();
+		redirect($string.'Home-Admin', 'refresh');
 	}
 
 	public function deleteItem(){
@@ -121,7 +124,8 @@ class Admin extends CI_Controller {
 		$idPost=$this->input->get('idPost');
 		$this->Posts->deletePost($idPost);
 
-		redirect('http://localhost:70/Magazine/Home-Admin', 'refresh');
+		$string=base_url();
+		redirect($string.'Home-Admin', 'refresh');
 	}
 
 	public function getPostByCateg(){
