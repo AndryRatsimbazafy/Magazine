@@ -96,6 +96,15 @@ class Admin extends CI_Controller {
 		redirect($string.'Home-Admin', 'refresh');
 	}
 
+	public function insertCategory(){
+		$this->load->helper('url');
+		$this->load->model('Category');
+		$nom = $this->input->post('Title');
+		$this->Category->insertCategory($nom);
+		$string=base_url();
+		redirect($string.'Home-Admin', 'refresh');
+	}
+
 	public function editItem(){
 		$this->load->helper('url');
 		$this->load->model('Category');

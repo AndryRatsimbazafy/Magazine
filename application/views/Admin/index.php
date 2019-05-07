@@ -133,8 +133,21 @@
                         <div class="col-md-12">
                                 <!-- DATA TABLE -->
                           <h1 class="pb-2 display-4">Home Admin</h1>
-                          <h2 class="pb-2 display-5">All posts</h2>
                           <div class="table-data__tool">
+                            <div class="table-data__tool-left">
+                              <form action="<?php echo base_url() ?>index.php?c=Admin&m=insertCategory" method="post" enctype="multipart/form-data" class="form-horizontal">
+                                <div class="card-body card-block">
+                                  <div class="row form-group">
+                                    <div class="col-12 col-md-9">
+                                        <input type="text" id="Title" name="Title" placeholder="Category name" class="form-control">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-sm">
+                                        <i class="zmdi zmdi-plus"></i> Add
+                                    </button>
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
                             <div class="table-data__tool-right">
                               <form action="<?php echo base_url() ?>Add-Item" method="post">
                                 <button class="au-btn au-btn-icon au-btn--green au-btn--small">

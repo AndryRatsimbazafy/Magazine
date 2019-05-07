@@ -19,4 +19,9 @@ class Category extends CI_Model {
     $rep = $query->row_array();
     return $rep;
   }
+
+  public function insertCategory($nom){
+    $query="Insert into Categorie (Nom) values('".$nom."')";
+		$this->db->query($query);
+  }
 }
