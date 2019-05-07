@@ -54,9 +54,6 @@
 								<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/logo.png" alt="Logo">
 							</a>
 						</div>
-						<div class="col-lg-8 col-md-8 col-sm-12 logo-right no-padding ads-banner">
-							<img class="img-fluid" src="<?php echo base_url(); ?>assets/img/banner-ad.jpg" alt="Banner">
-						</div>
 					</div>
 				</div>
 			</div>
@@ -72,21 +69,8 @@
 									<?php } ?>
 								</ul>
 							</li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
 						</ul>
 					</nav><!-- #nav-menu-container -->
-					<div class="navbar-right">
-						<form class="Search">
-							<input type="text" class="form-control Search-box" name="Search-box" id="Search-box" placeholder="Search">
-							<label for="Search-box" class="Search-box-label">
-								<span class="lnr lnr-magnifier"></span>
-							</label>
-							<span class="Search-close">
-								<span class="lnr lnr-cross"></span>
-							</span>
-						</form>
-					</div>
 				</div>
 			</div>
 		</header>
