@@ -16,6 +16,7 @@
 		<meta charset="UTF-8">
 		<!-- Site Title -->
 		<title><?php echo $post['Titre']; ?></title>
+		<link rel="shortcut icon" href="<?php echo base_url() ?>assets/img/icone.ico"/>
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
 		<!--
 		CSS
