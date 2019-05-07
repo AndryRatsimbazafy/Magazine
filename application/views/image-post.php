@@ -30,10 +30,10 @@
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-6 col-6 header-top-left no-padding">
 							<ul>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance"></i></a></li>
+								<li><a href="#"><img src="<?php echo base_url(); ?>assets/img/css_sprites.png" style="object-fit: none; object-position: -10px -46px; width: 16px; height: 16px;"></a></li>
+								<li><a href="#"><img src="<?php echo base_url(); ?>assets/img/css_sprites.png" style="object-fit: none; object-position: -46px -46px; width: 16px; height: 16px;"></a></li>
+								<li><a href="#"><img src="<?php echo base_url(); ?>assets/img/css_sprites.png" style="object-fit: none; object-position: -46px -10px; width: 16px; height: 16px;"></a></li>
+								<li><a href="#"><img src="<?php echo base_url(); ?>assets/img/css_sprites.png" style="object-fit: none; object-position: -10px -10px; width: 16px; height: 16px;"></a></li>
 							</ul>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-6 header-top-right no-padding">
@@ -206,12 +206,6 @@
 				<p class="footer-text m-0 col-lg-8 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-				<div class="col-lg-4 col-md-12 footer-social">
-					<a href="#"><i class="fa fa-facebook"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-dribbble"></i></a>
-					<a href="#"><i class="fa fa-behance"></i></a>
-				</div>
 			</div>
 		</div>
 	</footer>
