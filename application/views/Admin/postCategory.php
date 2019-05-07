@@ -12,6 +12,7 @@
 
     <!-- Title Page-->
     <title><?php echo $categ['Nom'] ?> Posts</title>
+		<link rel="shortcut icon" href="<?php echo base_url() ?>assets/Admin/images/icon/logo-mini.ico"/>
 
     <!-- All CSS-->
     <link href="<?php echo base_url() ?>assets/Admin/css/All.css" rel="stylesheet" media="all">
