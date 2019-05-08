@@ -26,8 +26,8 @@ RewriteRule ^Admin/Category/([A-Za-z0-9]+)-([A-Za-z0-9]+)$ index.php?c=Admin&m=g
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^Add-Item$  index.php?c=Admin&m=toAddItem [L]
+RewriteRule ^Edit-Item/([^/]+)-([^/]+)$ index.php?c=Admin&m=toEditItem&idPost=$2&titre=$1 [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^Edit-Item/([A-Za-z0-9]+)-([A-Za-z0-9]+)$ index.php?c=Admin&m=toEditItem&idPost=$2&titre=$1 [L]
+RewriteRule ^Add-Item$  index.php?c=Admin&m=toAddItem [L]
