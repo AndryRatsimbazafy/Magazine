@@ -16,7 +16,8 @@
 	-Copier le dossier dans l'archive dans le répertoire www\ de votre serveur wamp
 	
 -Importer la base de donnée script_base_magazine.sql dans votre MySql local
-	
+
+-Changer le mot de passe et l'username de la base de donnée dans application\config\database.php selon vos identifiants MySql	
 -Editer le fichier config.php qui strouve dans application\config\ et modifier la ligne 26 qui est:
 		
 $config['base_url'] = 'http://localhost:70/Magazine/'; en 
