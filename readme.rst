@@ -10,8 +10,8 @@
 	-Importer la base de donnée script_base_magazine.sql dans votre MySql local
 	-Editer le fichier config.php qui strouve dans application\config\ et modifier la ligne 26 qui est:
 		$config['base_url'] = 'http://localhost:70/Magazine/'; en 
-		$config['base_url'] = 'http://localhost/[le port de votre apache]/[Nom du dossier contenant le projet dans www\]/';
+		$config['base_url'] = 'http://localhost:[le port de votre apache]/[Nom du dossier contenant le projet dans www\]/';
 
 3-Démarrage:
-	-Ouvrir votre navigateur et taper l'url: http://localhost/[le port de votre apache]/[Nom du dossier contenant le projet dans www\]/
+	-Ouvrir votre navigateur et taper l'url: http://localhost:[le port de votre apache]/[Nom du dossier contenant le projet dans www\]/
 	ou lancer le projet depuis votre serveur wammp
