@@ -7,7 +7,7 @@
 		<!-- Favicon-->
 		<link rel="shortcut icon" href="img/fav.png">
 		<!-- Author Meta -->
-		<meta name="author" content="colorlib">
+		<meta name="author" content="Andry Ratsimbazafy">
 		<!-- Meta Description -->
 		<meta name="description" content="There are some <?php echo $categ['Nom'] ?> for you">
 		<!-- Meta Keyword -->

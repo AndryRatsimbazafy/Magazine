@@ -7,7 +7,7 @@
 		<!-- Favicon-->
 		<link rel="shortcut icon" href="img/fav.png">
 		<!-- Author Meta -->
-		<meta name="author" content="colorlib">
+		<meta name="author" content="Andry Ratsimbazafy">
 		<!-- Meta Description -->
 		<meta name="description" content="You wanna read some posts about many topic such as food, lifestyle,... then Magazine is there for you">
 		<!-- Meta Keyword -->
